@@ -32,6 +32,41 @@ here all the subscriber will receive the message
 ➡ Un seul next(), tous les abonnés reçoivent la même valeur.
 ![image](https://github.com/user-attachments/assets/b6794881-c4b9-40de-921b-0a6cd6b022bc)
 
+![image](https://github.com/user-attachments/assets/2a9625d5-2c4e-4392-9bbc-74433f66a86a)
 
+![image](https://github.com/user-attachments/assets/9ce199e8-7e98-4218-94c6-5662e005c9c0)
 
+![image](https://github.com/user-attachments/assets/f070f1d8-c5f7-4dad-8d79-da7ea11e4610)
 
+![image](https://github.com/user-attachments/assets/5cef76fd-798b-4ffc-abbc-1eea5aebc227)
+
+![image](https://github.com/user-attachments/assets/861e8532-d60c-46b3-8a50-29df6b765747)
+
+![image](https://github.com/user-attachments/assets/78e98f9b-e3db-4398-8600-55f174d41b0c)
+
+=>
+![image](https://github.com/user-attachments/assets/92b79a97-f6d0-4400-bcd7-130e791ff481)
+
+=>
+![image](https://github.com/user-attachments/assets/61fc93a2-1a6f-4bee-8748-34be87837d01)
+
+![image](https://github.com/user-attachments/assets/9614d15e-8f8c-4841-ab0f-e204bfa6c76b)
+
+![image](https://github.com/user-attachments/assets/e7db0819-8969-49d2-a031-4b94a2d5c6ef)
+
+example more clear for ReplaySubject:
+![image](https://github.com/user-attachments/assets/5f201151-cf21-4a9e-9992-ff94ab03f36b)
+
+=>
+![image](https://github.com/user-attachments/assets/28780972-c180-43ce-ba12-e6e45b3f4080)
+
+➡ ReplaySubject(2) a oublié 'A' et garde les 2 dernières valeurs ['B', 'C'].
+
+Maintenant, après l'abonnement :
+replay$.next('D');
+comme ça :
+![image](https://github.com/user-attachments/assets/554d9788-2e9c-4366-9716-4f07eba5765f)
+
+![image](https://github.com/user-attachments/assets/2dbfee2d-3083-4baf-89e4-b6561064582f)
+
+➡ Ce nouveau message est reçu en direct, comme avec un Subject.
