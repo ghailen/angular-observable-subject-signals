@@ -146,3 +146,4 @@ Voici un exemple Angular 18 complet qui montre comment consommer une API avec Ht
 => resultat:
 ![image](https://github.com/user-attachments/assets/76820091-767f-4695-bfa6-d31bf99c2b6b)
 
+![image](https://github.com/user-attachments/assets/0d2a19f0-45e5-4efd-abf8-b1075e96cb2d)
