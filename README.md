@@ -9,6 +9,18 @@ Observable example:
 
 
 
+Without multicasting
+![image](https://github.com/user-attachments/assets/4721e0d6-4daf-48ee-949a-54613354540e)
+![image](https://github.com/user-attachments/assets/19ed24a9-b2e9-4d89-a15e-54a823803dad)
+=>
+![image](https://github.com/user-attachments/assets/36d75dad-89ee-4d7b-b5e3-304cff908a45)
+➡ Chaque abonné a sa propre exécution indépendante.
+
+
+
+
+![image](https://github.com/user-attachments/assets/95261aeb-eae4-42cb-baf6-4f0c28d6ddb3)
+
 Subject:
 
 ![image](https://github.com/user-attachments/assets/130e1ba6-baa6-4440-bbf1-bd5aaea61bf5)
@@ -17,6 +29,9 @@ Subject:
 
 here all the subscriber will receive the message
 ![image](https://github.com/user-attachments/assets/b0f4f0d4-b414-4fac-af2a-19d21fdc6fe3)
+➡ Un seul next(), tous les abonnés reçoivent la même valeur.
+![image](https://github.com/user-attachments/assets/b6794881-c4b9-40de-921b-0a6cd6b022bc)
 
-![image](https://github.com/user-attachments/assets/4721e0d6-4daf-48ee-949a-54613354540e)
+
+
 
